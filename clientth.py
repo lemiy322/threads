@@ -1,5 +1,5 @@
 import socket
-Создаем сокет для клиента
+#Создаем сокет для клиента
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(('localhost', 9090))  # Подключаемся к серверу
 
